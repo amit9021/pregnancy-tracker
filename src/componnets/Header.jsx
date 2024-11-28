@@ -30,10 +30,6 @@ const Header = () => {
             <li>
               <a href="/recommendations">המלצות ותודות</a>
             </li>
-
-            <li>
-              <a href="/contact">בואו נדבר</a>
-            </li>
           </ul>
         </nav>
       </div>
