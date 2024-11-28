@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pregnancy-tracker/static/css/main.c1208bab.css",
-    "main.js": "/pregnancy-tracker/static/js/main.355b7067.js",
+    "main.css": "/pregnancy-tracker/static/css/main.c5e41f0e.css",
+    "main.js": "/pregnancy-tracker/static/js/main.35fa3cf8.js",
     "static/js/453.ae21b495.chunk.js": "/pregnancy-tracker/static/js/453.ae21b495.chunk.js",
     "static/media/hero.jpeg": "/pregnancy-tracker/static/media/hero.2001edaa7bcc467e8743.jpeg",
-    "static/media/logo.svg": "/pregnancy-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background.jpg": "/pregnancy-tracker/static/media/background.1ddfa5b0cf340d21a90b.jpg",
     "index.html": "/pregnancy-tracker/index.html",
-    "main.c1208bab.css.map": "/pregnancy-tracker/static/css/main.c1208bab.css.map",
-    "main.355b7067.js.map": "/pregnancy-tracker/static/js/main.355b7067.js.map",
+    "main.c5e41f0e.css.map": "/pregnancy-tracker/static/css/main.c5e41f0e.css.map",
+    "main.35fa3cf8.js.map": "/pregnancy-tracker/static/js/main.35fa3cf8.js.map",
     "453.ae21b495.chunk.js.map": "/pregnancy-tracker/static/js/453.ae21b495.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1208bab.css",
-    "static/js/main.355b7067.js"
+    "static/css/main.c5e41f0e.css",
+    "static/js/main.35fa3cf8.js"
   ]
 }
