@@ -20,7 +20,8 @@ function App() {
       <div className={styles.body}>
         <Header />
         <Hero />
-        <main className={styles.container}>
+
+        <main className={styles.mainSection}>
           <section className={`${styles.content} ${styles.container}`}>
             {content.map((item) => {
               return (
@@ -37,6 +38,7 @@ function App() {
             })}
           </section>
         </main>
+
         <Whattsapp />
         <Footer />
       </div>
