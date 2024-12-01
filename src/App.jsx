@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./assets/styles/styles.module.css";
 import Header from "./componnets/Header";
 import Footer from "./componnets/Footer";
@@ -7,6 +8,7 @@ import DB from "./DB/DB.json";
 import Content from "./componnets/Content";
 import Services from "./componnets/Services";
 import Whattsapp from "./componnets/Whattsapp";
+import Carousel from "react-bootstrap/Carousel";
 
 function App() {
   const content = DB.content;
@@ -23,19 +25,34 @@ function App() {
 
         <main className={styles.mainSection}>
           <section className={`${styles.content} ${styles.container}`}>
-            {content.map((item) => {
-              return (
-                <Content key={item.id} title={item.title} text={item.text} />
-              );
-            })}
+            <h2>תוכן</h2>
+            <Carousel data-bs-theme="dark" className={styles.customCarousel}>
+              {content.map((item) => {
+                return (
+                  <Carousel.Item key={item.id}>
+                    <Carousel.Caption></Carousel.Caption>
+                    <div className={styles.container}>
+                      <Content title={item.title} text={item.text} />
+                    </div>
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
           </section>
           <section className={`${styles.services} ${styles.container}`}>
             <h2>מה כולל המעקב בקליניקה?</h2>
-            {services.map((item) => {
-              return (
-                <Services key={item.id} title={item.title} text={item.text} />
-              );
-            })}
+            <Carousel data-bs-theme="dark" className={styles.customCarousel}>
+              {services.map((item) => {
+                return (
+                  <Carousel.Item key={item.id}>
+                    <Carousel.Caption></Carousel.Caption>
+                    <div className={styles.container}>
+                      <Content title={item.title} text={item.text} />
+                    </div>
+                  </Carousel.Item>
+                );
+              })}
+            </Carousel>
           </section>
         </main>
 
